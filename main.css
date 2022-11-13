@@ -97,6 +97,10 @@ h1,h2 {
     color: white;
 }
 
+.footer a:hover {
+    color: brown;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
