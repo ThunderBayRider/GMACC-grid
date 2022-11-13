@@ -43,12 +43,19 @@ a:hover {
 }
 
 .wrapper {
-    margin: 5px;
+   margin: 20px;
+    display: grid;
+    grid-template-columns: repeat (auto-fit, minmax(240px 1fr));
 }
 
 .logo {
-   padding: 50px;
-   margin-top: 50px;
+    width: 50%;
+    max-width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 90px;
 }
 
 .disabled {
